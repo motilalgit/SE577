@@ -12,7 +12,7 @@ The basic architecture can be found "ProjectStub.md"
 
 
 
-Below are the steps to followed during project setup .
+Below are the steps to be followed during project setup .
 
 ## Install the dependencies
 ```bash
