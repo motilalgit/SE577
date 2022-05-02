@@ -1,0 +1,7 @@
+[
+    { "name": "Repo 1","description": "Repo 1 description", "color": "bg-primary" },
+    { "name": "Repo 2","description": "Repo 2 description", "color": "bg-secondary" },
+    { "name": "Repo 3","description": "Repo 3 description", "color": "bg-accent" },
+    { "name": "Repo 4","description": "Repo 4 description", "color": "bg-warning" },
+    { "name": "Repo 5","description": "Repo 4 description", "color": "bg-warning" }
+]
