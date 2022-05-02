@@ -1,71 +1,25 @@
 # SE577- MyRepos Demo App 
 
-This project is to demostrate the single page web application where below components have been used .
+This project is to demostrate the single page web application with microservice .
 
-1.Mainlayout.vue --> Used as main component 
+1.server.js page has been created for server program and running on localhost and port 8082. 
 
-2.About/Myrepos/Repos details/login -->Used as child component
+2.repository.json created for hosting the my repository details
 
-3.Routes-->Used to route the request and provide details against request
+3.MyRepos.vue has been modified to fetch data dynamically 
 
-The basic architecture can be found "ProjectStub.md"
+4.rest api "http://localhost:8082/repo"
 
+# Program execution steps 
 
-
-Below are the steps to be followed during project setup .
-
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+1. node server.js -->to run server side program.
+2. quasar dev --> to run front end program 
+3. http://localhost:8082/repo -->Rest API call from browser .
 
 
 
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
 
 
-### Some useful git command.
-
-git init
-
-git add <folder1> <folder2> <etc.>
-  
-git commit -m "Your message about the commit"
-  
-git remote add origin https://github.com/motilalgit/SE577.git
-  
-git push -u origin master
-  
-git push origin master
   
 
 
