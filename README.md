@@ -1,15 +1,18 @@
 # SE577- MyRepos Demo App 
 
-This project is to demostrate the single page web application where below components have been used .
+This project is to demostrate the single page web application with docker container .
 
-1.Mainlayout.vue --> Used as main component 
+1.Project build command  --> quasar build
 
-2.About/Myrepos/Repos details/login -->Used as child component
+2.docker build command --->docker build --rm=true -t architecting-software/sample-demo-1-main -f ./Docker/Dockerfile .
 
-3.Routes-->Used to route the request and provide details against request
+3.Docker run command --> docker run --rm -p 8082:8082 architecting-software/sample-demo-1-main
 
-The basic architecture can be found "ProjectStub.md"
+4. rest API call ---http://localhost:8082/repo 
 
+Result :- 
+
+[{"name":"Repo 1","description":"Repo 1 description","color":"bg-primary"},{"name":"Repo 2","description":"Repo 2 description","color":"bg-secondary"},{"name":"Repo 3","description":"Repo 3 description","color":"bg-accent"},{"name":"Repo 4","description":"Repo 4 description","color":"bg-warning"},{"name":"Repo 5","description":"Repo 4 description","color":"bg-warning"}]
 
 
 Below are the steps to be followed during project setup .
