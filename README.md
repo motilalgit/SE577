@@ -8,7 +8,7 @@ This project is to demostrate the single page web application with docker contai
 
 3.Docker run command --> docker run --rm -p 8082:8082 architecting-software/sample-demo-1-main
 
-4. rest API call ---http://localhost:8082/repo 
+4. rest API call --->  http://localhost:8082/repo 
 
 Result :- 
 
