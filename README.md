@@ -44,6 +44,22 @@ docker build --rm=true -t architecting-software/se577-web-demo-main -f ./Docker/
 
 docker run --rm -p 9080:9080 architecting-software/se577-web-demo-main
 
+### Creating a gist
+
+1. Sign in to GitHub.
+
+2. Navigate to your gist home page.
+
+3. Type an optional description and name for your gist.
+
+4. Type the text of your gist into the gist text box.
+
+6. Optionally, to create a public gist, click , then click Create public gist.
+    Click Create secret Gist or Create public gist.
+
+
+
+
 
 
 ### Customize the configuration
