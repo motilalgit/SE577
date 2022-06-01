@@ -44,6 +44,11 @@ docker build --rm=true -t architecting-software/se577-web-demo-main -f ./Docker/
 
 docker run --rm -p 9080:9080 architecting-software/se577-web-demo-main
 
+### check result from browser 
+
+http://localhost:9080/
+
+
 ### Creating a gist
 
 1. Sign in to GitHub.
