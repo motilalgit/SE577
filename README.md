@@ -36,6 +36,15 @@ npm run format
 ```bash
 quasar build
 ```
+### Docker Build command 
+
+docker build --rm=true -t architecting-software/se577-web-demo-main -f ./Docker/Dockerfile .
+
+### Docker run command 
+
+docker run --rm -p 9080:9080 architecting-software/se577-web-demo-main
+
+
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
