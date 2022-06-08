@@ -62,7 +62,9 @@ http://localhost:9080/
 6. Optionally, to create a public gist, click , then click Create public gist.
     Click Create secret Gist or Create public gist.
 
+### What is OAuth?
 
+OAuth is an open-standard authorization protocol or framework that provides applications the ability for “secure designated access.” For example, you can tell Facebook that it’s OK for ESPN.com to access your profile or post updates to your timeline without having to give ESPN your Facebook password. This minimizes risk in a major way: In the event ESPN suffers a breach, your Facebook password remains safe
 
 
 
