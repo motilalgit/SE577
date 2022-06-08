@@ -78,6 +78,23 @@ OAuth is an open-standard authorization protocol or framework that provides appl
 
 5 .Give your token a descriptive name.
 
+### How to authenticate using auth token ? 
+
+The process works like this:
+
+Request: The person asks for access to a server or protected resource. That could involve a login with a password, or it could involve some other process you specify.
+
+Verification: The server determines that the person should have access. That could involve checking the password against the username, or it could involve another process you specify.
+
+Tokens: The server communicates with the authentication device, like a ring, key, phone, or similar device. After verification, the server issues a token and passes it to the user.
+
+Storage: The token sits within the user's browser while work continues.
+
+
+If the user attempts to visit a different part of the server, the token communicates with the server again. Access is granted or denied based on the token.
+
+Administrators set limits on tokens. You could allow a one-use token that is immediately destroyed when the person logs out. Or you could set the token to self-destruct at the end of a specified time period
+
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
