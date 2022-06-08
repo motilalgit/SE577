@@ -62,7 +62,7 @@ http://localhost:9080/
 6. Optionally, to create a public gist, click , then click Create public gist.
     Click Create secret Gist or Create public gist.
 
-
+### More details for the oAuth given in FinalRelease.md
 
 
 
