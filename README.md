@@ -95,6 +95,33 @@ If the user attempts to visit a different part of the server, the token communic
 
 Administrators set limits on tokens. You could allow a one-use token that is immediately destroyed when the person logs out. Or you could set the token to self-destruct at the end of a specified time period
 
+### AXIOS code example to authenticate  ? 
+
+const api = 'https://api.github.com/users/motilalgit/repos';
+const token = 'XXXXXXXXXXXX';
+
+onMounted(async () => {
+  const res = await axios.get(api, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  rows.value = [];
+  const rList = res.data as rowType[];
+  const resList = rList.map((row) => {
+    const mappedRow: rowType = {
+      id: row.id,
+      name: row.name,
+      url: row.url,
+      language: row.language,
+      updated_at: row.updated_at,
+    };
+    return mappedRow;
+  });
+  console.log('DEBUG', resList);
+  rows.value = resList;
+});
+
+
+
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
